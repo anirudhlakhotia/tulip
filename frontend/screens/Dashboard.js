@@ -12,6 +12,7 @@ import {
 import { TouchableOpacity } from 'react-native-gesture-handler';
 import SaveCards from './SaveCards';
 import BankCards from './BankCards';
+import { get } from "../api/fetch";
 
 
 const Dashboard = ({navigation}) => {
