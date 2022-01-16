@@ -92,7 +92,6 @@ const LoginScreen = ({ navigation }) => {
               onChangeText={handleChange("name")}
               onBlur={handleBlur("name")}
               value={values.name}
-              keyboardType="text"
             />
             {errors.name && touched.name && (
               <Text style={styles.errorText}>{errors.name}</Text>

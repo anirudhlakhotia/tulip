@@ -102,7 +102,7 @@ const Bank = ({navigation}) => {
         <TextInput
         style={styles.input}
         onChangeText={onChangeText}
-        value={text}
+        value={text.toString()}
         keyboardType="numeric"
         placeholder="Enter Amount"
       />
